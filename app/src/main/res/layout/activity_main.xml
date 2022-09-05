@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activity.MainActivity">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add category"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btSubCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add subcategory"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add product"/>
+
+</LinearLayout>
